@@ -1,0 +1,14 @@
+var Fruits=["kiwi","mango","banana"];
+console.log(Fruits);
+document.getElementById("Ex1").innerHTML=Fruits;
+var first="avantika"; 
+var last= "khanna";
+var full= first.concat(last);
+console.log(full);
+document.getElementById("Ex2").innerHTML=full;
+var Length_of_Array=Fruits.length;
+console.log(Length_of_Array);
+document.getElementById("Ex3").innerHTML=Length_of_Array;
+var minimum=Math.sqrt(25);
+console.log(minimum);
+document.getElementById("Ex4").innerHTML=minimum;
